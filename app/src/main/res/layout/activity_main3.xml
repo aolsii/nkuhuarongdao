@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backd"
+    tools:context=".Main3Activity">
+
+
+    <TextView
+        android:id="@+id/myText3"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="近在咫尺"
+        android:gravity="center|bottom"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:textColor="#FFFFCC"
+        android:background="@drawable/d"
+        app:layout_constraintBottom_toTopOf="@+id/HRD2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <FrameLayout
+        android:id="@+id/HRD2"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toTopOf="@id/Text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/myText3">
+
+        <Button
+            android:id="@+id/people11"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/people12"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/people13"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/people14"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/people15"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/huang" />
+
+        <Button
+            android:id="@+id/people16"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/ma" />
+
+        <Button
+            android:id="@+id/people17"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/zhang" />
+
+        <Button
+            android:id="@+id/people18"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/guan2" />
+
+        <Button
+            android:id="@+id/people19"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/guan" />
+
+        <Button
+            android:id="@+id/people20"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/cao" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="开始游戏"
+        android:gravity="center|top"
+        android:textSize="60px"
+        android:textStyle="bold"
+        android:textColor="#FFFFCC"
+        app:layout_constraintTop_toBottomOf="@id/HRD2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
+
+

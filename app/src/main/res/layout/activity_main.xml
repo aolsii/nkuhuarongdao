@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpic"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50px"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="150px"
+            android:layout_marginRight="150px"
+            android:layout_marginBottom="50px">
+
+            <Button
+                android:id="@+id/rule"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:text="游戏玩法"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="rule"
+                android:layout_marginRight="50px"
+                android:textColor="@color/cob"
+                android:background="@drawable/selector"
+                />
+
+            <Button
+                android:id="@+id/story"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:text="游戏背景"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="story"
+                android:layout_marginLeft="50px"
+                android:textColor="@color/cob"
+                android:background="@drawable/selector"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="150px"
+            android:layout_marginRight="150px"
+            android:layout_marginBottom="50px">
+
+            <Button
+                android:id="@+id/choose"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:text="横刀立马"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="choose"
+                android:layout_marginRight="50px"
+                android:background="@drawable/selector"
+                android:textColor="@color/cob"/>
+
+            <Button
+                android:id="@+id/rank"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:text="近在咫尺"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="rank"
+                android:layout_marginLeft="50px"
+                android:textColor="@color/cob"
+                android:background="@drawable/selector"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="150px"
+            android:layout_marginRight="150px"
+            android:layout_marginBottom="50px">
+
+            <Button
+                android:id="@+id/run"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:text="小燕归巢"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="run"
+                android:layout_marginRight="50px"
+                android:background="@drawable/selector"
+                android:textColor="@color/cob"/>
+
+            <Button
+                android:id="@+id/success"
+                android:layout_width="wrap_content"
+                android:layout_height="150px"
+                android:text="过五关"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:onClick="success"
+                android:layout_marginLeft="50px"
+                android:textColor="@color/cob"
+                android:background="@drawable/selector"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
